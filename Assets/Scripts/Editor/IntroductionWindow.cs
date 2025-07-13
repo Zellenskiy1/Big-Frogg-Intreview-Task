@@ -1,4 +1,5 @@
 ﻿using UnityEditor;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 
 namespace Editor
@@ -49,6 +50,7 @@ namespace Editor
 
             if (GUILayout.Button("OK", GUILayout.Width(120), GUILayout.Height(45)))
             {
+                EditorSceneManager.OpenScene("Assets/Scenes/Gameplay.unity");
                 Close();
             }
 
