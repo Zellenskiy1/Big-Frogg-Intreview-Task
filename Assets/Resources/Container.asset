@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d235db0ec8654972976e4f528522643c, type: 3}
+  m_Name: Container
+  m_EditorClassIdentifier: 
+  blueCargo: {fileID: -7418301347946885286, guid: 9260b6abc4545d44c811cfcac0443477, type: 3}
+  redCargo: {fileID: 669842496476803114, guid: 024e48cf05950a446b4c046a83b0a520, type: 3}
+  grab: {fileID: 6430201493703321969, guid: eb3ebde0ccf3fff4c88cb74e512fb391, type: 3}
